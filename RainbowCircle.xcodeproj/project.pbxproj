@@ -8,26 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		E3506EBF24C83BAD00964042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EBE24C83BAD00964042 /* AppDelegate.swift */; };
-		E3506EC124C83BAD00964042 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3506EC024C83BAD00964042 /* GameScene.sks */; };
-		E3506EC324C83BAD00964042 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3506EC224C83BAD00964042 /* Actions.sks */; };
 		E3506EC524C83BAD00964042 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EC424C83BAD00964042 /* GameScene.swift */; };
 		E3506EC724C83BAD00964042 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EC624C83BAD00964042 /* GameViewController.swift */; };
 		E3506ECA24C83BAD00964042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3506EC824C83BAD00964042 /* Main.storyboard */; };
 		E3506ECC24C83BBA00964042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3506ECB24C83BBA00964042 /* Assets.xcassets */; };
 		E3506ECF24C83BBA00964042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3506ECD24C83BBA00964042 /* LaunchScreen.storyboard */; };
+		E3506EDC24CADA3600964042 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EDB24CADA3600964042 /* Enums.swift */; };
+		E3506EDE24CADA6B00964042 /* Side.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EDD24CADA6B00964042 /* Side.swift */; };
+		E3506EE024CADADB00964042 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EDF24CADADB00964042 /* Ball.swift */; };
+		E3506EE224CAFB3C00964042 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EE124CAFB3B00964042 /* CGFloat.swift */; };
+		E3506EE424CB006F00964042 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EE324CB006F00964042 /* UIColor.swift */; };
+		E3506EE624CD9EB100964042 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EE524CD9EB000964042 /* HUD.swift */; };
+		E3506EE824CDA66500964042 /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EE724CDA66500964042 /* PhysicsCategory.swift */; };
+		E3506EEA24CEDF9500964042 /* HighscoreGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EE924CEDF9500964042 /* HighscoreGenerator.swift */; };
+		E3506EEF24CEEBD700964042 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = E3506EEE24CEEBD700964042 /* correct.wav */; };
+		E3506EF124CEF08200964042 /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = E3506EF024CEF08200964042 /* wrong.wav */; };
+		E3506EF324CF0FAF00964042 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EF224CF0FAE00964042 /* GameOverScene.swift */; };
+		E3506EF724D0022400964042 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EF624D0022400964042 /* MainMenuScene.swift */; };
+		E3506EF924D006BF00964042 /* ColorWheelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3506EF824D006BF00964042 /* ColorWheelBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3506EBB24C83BAD00964042 /* RainbowCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3506EBE24C83BAD00964042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3506EC024C83BAD00964042 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E3506EC224C83BAD00964042 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E3506EC424C83BAD00964042 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E3506EC624C83BAD00964042 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E3506EC924C83BAD00964042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3506ECB24C83BBA00964042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3506ECE24C83BBA00964042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3506ED024C83BBA00964042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3506EDB24CADA3600964042 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		E3506EDD24CADA6B00964042 /* Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Side.swift; sourceTree = "<group>"; };
+		E3506EDF24CADADB00964042 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		E3506EE124CAFB3B00964042 /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		E3506EE324CB006F00964042 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E3506EE524CD9EB000964042 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		E3506EE724CDA66500964042 /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
+		E3506EE924CEDF9500964042 /* HighscoreGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighscoreGenerator.swift; sourceTree = "<group>"; };
+		E3506EEE24CEEBD700964042 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correct.wav; path = ../../../../../Downloads/correct.wav; sourceTree = "<group>"; };
+		E3506EF024CEF08200964042 /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
+		E3506EF224CF0FAE00964042 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		E3506EF624D0022400964042 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		E3506EF824D006BF00964042 /* ColorWheelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheelBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +82,84 @@
 		E3506EBD24C83BAD00964042 /* RainbowCircle */ = {
 			isa = PBXGroup;
 			children = (
+				E3506EFB24D0279700964042 /* Fonts */,
+				E3506EEB24CEEA2000964042 /* Sounds */,
+				E3506EDA24C9E50600964042 /* Helpers */,
+				E3506ED924C9DAC400964042 /* Models */,
+				E3506ED824C83C0300964042 /* Scenes */,
+				E3506ED724C83BF800964042 /* Controllers */,
+				E3506ED624C83BE000964042 /* Resources */,
 				E3506EBE24C83BAD00964042 /* AppDelegate.swift */,
-				E3506EC024C83BAD00964042 /* GameScene.sks */,
-				E3506EC224C83BAD00964042 /* Actions.sks */,
-				E3506EC424C83BAD00964042 /* GameScene.swift */,
-				E3506EC624C83BAD00964042 /* GameViewController.swift */,
-				E3506EC824C83BAD00964042 /* Main.storyboard */,
-				E3506ECB24C83BBA00964042 /* Assets.xcassets */,
-				E3506ECD24C83BBA00964042 /* LaunchScreen.storyboard */,
-				E3506ED024C83BBA00964042 /* Info.plist */,
 			);
 			path = RainbowCircle;
+			sourceTree = "<group>";
+		};
+		E3506ED624C83BE000964042 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3506ED024C83BBA00964042 /* Info.plist */,
+				E3506ECD24C83BBA00964042 /* LaunchScreen.storyboard */,
+				E3506EC824C83BAD00964042 /* Main.storyboard */,
+				E3506ECB24C83BBA00964042 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3506ED724C83BF800964042 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3506EC624C83BAD00964042 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E3506ED824C83C0300964042 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E3506EC424C83BAD00964042 /* GameScene.swift */,
+				E3506EF224CF0FAE00964042 /* GameOverScene.swift */,
+				E3506EF624D0022400964042 /* MainMenuScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E3506ED924C9DAC400964042 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3506EDD24CADA6B00964042 /* Side.swift */,
+				E3506EDF24CADADB00964042 /* Ball.swift */,
+				E3506EE524CD9EB000964042 /* HUD.swift */,
+				E3506EE924CEDF9500964042 /* HighscoreGenerator.swift */,
+				E3506EF824D006BF00964042 /* ColorWheelBase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3506EDA24C9E50600964042 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E3506EDB24CADA3600964042 /* Enums.swift */,
+				E3506EE124CAFB3B00964042 /* CGFloat.swift */,
+				E3506EE324CB006F00964042 /* UIColor.swift */,
+				E3506EE724CDA66500964042 /* PhysicsCategory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E3506EEB24CEEA2000964042 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E3506EEE24CEEBD700964042 /* correct.wav */,
+				E3506EF024CEF08200964042 /* wrong.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E3506EFB24D0279700964042 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3506ECA24C83BAD00964042 /* Main.storyboard in Resources */,
-				E3506EC124C83BAD00964042 /* GameScene.sks in Resources */,
+				E3506EEF24CEEBD700964042 /* correct.wav in Resources */,
 				E3506ECC24C83BBA00964042 /* Assets.xcassets in Resources */,
 				E3506ECF24C83BBA00964042 /* LaunchScreen.storyboard in Resources */,
-				E3506EC324C83BAD00964042 /* Actions.sks in Resources */,
+				E3506EF124CEF08200964042 /* wrong.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +235,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3506EE024CADADB00964042 /* Ball.swift in Sources */,
+				E3506EF724D0022400964042 /* MainMenuScene.swift in Sources */,
 				E3506EC524C83BAD00964042 /* GameScene.swift in Sources */,
+				E3506EE224CAFB3C00964042 /* CGFloat.swift in Sources */,
 				E3506EC724C83BAD00964042 /* GameViewController.swift in Sources */,
+				E3506EDE24CADA6B00964042 /* Side.swift in Sources */,
+				E3506EE424CB006F00964042 /* UIColor.swift in Sources */,
+				E3506EF924D006BF00964042 /* ColorWheelBase.swift in Sources */,
+				E3506EE624CD9EB100964042 /* HUD.swift in Sources */,
+				E3506EE824CDA66500964042 /* PhysicsCategory.swift in Sources */,
+				E3506EEA24CEDF9500964042 /* HighscoreGenerator.swift in Sources */,
+				E3506EDC24CADA3600964042 /* Enums.swift in Sources */,
+				E3506EF324CF0FAF00964042 /* GameOverScene.swift in Sources */,
 				E3506EBF24C83BAD00964042 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PYAHU7CY6;
-				INFOPLIST_FILE = RainbowCircle/Info.plist;
+				INFOPLIST_FILE = RainbowCircle/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PYAHU7CY6;
-				INFOPLIST_FILE = RainbowCircle/Info.plist;
+				INFOPLIST_FILE = RainbowCircle/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

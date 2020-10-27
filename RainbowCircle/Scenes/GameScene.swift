@@ -17,13 +17,13 @@ let colorWheelSet:[ColorType] = [
 .Red,
 .Purple
 ]
+var gameScore = 0
 
 class GameScene: SKScene {
     let colorWheelBase = ColorWheelBase()
     let hud = HUD()
     
     var currentGameState: GameState = GameState.preGame
-    var gameScore: Int = 0
     var ballSpeed: TimeInterval = 2.5
     var waitBeforeRunningNewBall: TimeInterval = 0.2
     
@@ -56,6 +56,7 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         self.physicsWorld.contactDelegate = self
+        gameScore = 0
         
         backgroundColor = UIColor.gray
         
@@ -100,7 +101,7 @@ extension GameScene {
     }
     
     func addScoreAndSpawnBall() {
-        self.gameScore += 1
+        gameScore += 1
         self.run(self.validSound)
         self.hud.updateScore(gameScore)
         self.increaseBallSpeed()
@@ -109,7 +110,7 @@ extension GameScene {
     }
     
     func increaseBallSpeed() {
-        if self.gameScore % 5 == 0 {
+        if gameScore % 5 == 0 {
             if self.ballSpeed != 1.8 {
                 self.ballSpeed -= 0.1
                 
@@ -121,7 +122,7 @@ extension GameScene {
             }
         }
         
-        if self.gameScore % 10 == 0 && self.waitBeforeRunningNewBall != 0 {
+        if gameScore % 10 == 0 && self.waitBeforeRunningNewBall != 0 {
             self.waitBeforeRunningNewBall -= 0.1
         }
     }

@@ -112,10 +112,14 @@ class HUD: SKNode {
         addLabel(HUDSettings.highscore,  fontSize: 80, position: highscoreLabelPosition)
         addLabel(HUDSettings.restart, fontSize: 60, position: restartLabelPosition)
 
+        
         gameOverLabel = childNode(withName: HUDSettings.gameOver) as? SKLabelNode
         scoreLabel = childNode(withName: HUDSettings.score) as? SKLabelNode
         highscoreLabel = childNode(withName: HUDSettings.highscore) as? SKLabelNode
         restartLabel = childNode(withName: HUDSettings.restart) as? SKLabelNode
+        
+        highscoreLabel.text = "Highscore: \(HighscoreGenerator.sharedInstance.getHighscore())"
+        scoreLabel.text = "Score: \(gameScore)"
     }
     
     func setupMainMenuLabel() {

@@ -50,6 +50,8 @@
 		E3506EF224CF0FAE00964042 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		E3506EF624D0022400964042 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		E3506EF824D006BF00964042 /* ColorWheelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheelBase.swift; sourceTree = "<group>"; };
+		E385944625486C65005094E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E385944725486CAA005094E0 /* magicCircle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = magicCircle.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,8 @@
 		E3506EB224C83BAC00964042 = {
 			isa = PBXGroup;
 			children = (
+				E385944625486C65005094E0 /* README.md */,
+				E385944725486CAA005094E0 /* magicCircle.gif */,
 				E3506EBD24C83BAD00964042 /* RainbowCircle */,
 				E3506EBC24C83BAD00964042 /* Products */,
 			);
@@ -395,6 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PYAHU7CY6;
 				INFOPLIST_FILE = RainbowCircle/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,6 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PYAHU7CY6;
 				INFOPLIST_FILE = RainbowCircle/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
